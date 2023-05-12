@@ -1,0 +1,35 @@
+html {
+    font-size: 62.5%;
+}
+.container_pri {
+    height: 80rem;
+    width: 90%;
+}
+.row_1 {
+    height: 30%;
+    background-color: #0D2324;
+}
+.col_foto {
+    width: 14%;
+}
+.row_2 {
+    height: 52rem;
+    background-color: #101F33;
+}
+.col_red_soc {
+    background-color: #123B31;
+}
+li {
+    list-style: none;
+}
+body {
+    background-image: url("./img/body_3.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+.col_final {
+    background-color: black;
+}
+.container_2 {
+    height: 50rem;
+}
