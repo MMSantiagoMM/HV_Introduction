@@ -17,20 +17,19 @@
     <main>
       <section class="container-fluid ">
         <section class="row row_one justify-content-center">
-          <div class="col-md-1 col-sm-6 p-0 my-4">
-            <img class="w-100" src="./img/Foto_2023.jpg" alt="" />
-          </div>
-          <div class="col-md-2 col-sm-12">
-            <div class="row col-12 mx-1 text-center dat text-white">
-              <h2 class="fs-5">Datos personales</h2>
-            </div>
-            <div class="col-12 text-center">
-              <ul>
-                <li>Santiago Mosquera Mápura</li>
-                <li>Colombiano</li>
-                <li>27 años</li>
-                <li>Cel: 312 234 1824</li>
-              </ul>
+          <div class="col-md-3 col-sm-6 p-0">
+            <div class="card mb-3 border-primary" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./img/Foto_2023.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Santiago Mosquera Mápura</h5>
+                    <p class="card-text">Nací en Medellín. Tengo 27 años. Mi número de contacto es: 312 234 1824. Mi correo electrónico es santiagomosquera2@gmail.com</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-md-9 col-sm-12">
@@ -38,22 +37,44 @@
               <h2 class="fs-4 text-center">Información académica</h2>
             </div>
             <div class="row col-12">
-              <div class="col-md-4 col-sm-12 text-center">
-                
-                <h5>Primaria</h5>
-                <p>Institución Educativa Esteban Ochoa</p>
-                <h5>Secundaria</h5>
-                <p>Institución Concejo Municipal de Itagüí</p>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      PRIMARIA Y SECUNDARIA
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">                
+                      <p>Institución Educativa Esteban Ochoa</p>
+                      <p>Institución Concejo Municipal de Itagüí</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      ESTUDIOS SUPERIORES
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">                
+                      <p>Universidad de Antioquia</p>
+                      <p>Historiador</p>
+                      <p>2016-2022</p>.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      CURSOS DE CORTA CURACIÓN
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p> PLATZI: HTML práctico, Curso definitivo de HTML y CSS, Funciones y estructuras de control,Algoritmos y diagramas de flujo,Fundamentos de ingeniería de software</p></div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-4 col-sm-12 text-center">
-                <h5>Estudios superiores</h5>
-                <p>Universidad de Antioquia</p>
-                <p>Historiador</p>
-                <p>2016-2022</p>
-              </div>
-              <div class="col-md-4 col-sm-12 text-center">
-                <h5>Otros estudios</h5>
-                <p> PLATZI: HTML práctico, Curso definitivo de HTML y CSS, Funciones y estructuras de control,Algoritmos y diagramas de flujo,Fundamentos de ingeniería de software</p>
               </div>
             </div>
           </div>
@@ -63,12 +84,12 @@
             <h3 class="text-white text-center my-3">Redes</h3>
             <div class="row">
               <div class="col-sm-6 col-md-12">
-              <a href=""
+              <a href="https://www.youtube.com/channel/UCfPD8Qg99m-ZLTdYkFXGYgA" target="_blank"
                 ><img class="w-100" src="./img/youtube.png" alt=""
               /></a>
             </div>
             <div class="col-sm-6 col-md-12 mt-1">
-              <a href="https://github.com/"
+              <a href="https://github.com/MMSantiagoMM" target="_blank"
                 ><img class="w-100" src="./img/githubwhite.png" alt=""
               /></a>
             </div>
@@ -76,13 +97,13 @@
             <div class="row">
               <div class="col-sm-6 col-md-12 mt-5">
                 <a
-                  href="https://api.whatsapp.com/qr/XAVNKMG6OMK2M1?autoload=1&app_absent=0"
+                  href="https://api.whatsapp.com/qr/XAVNKMG6OMK2M1?autoload=1&app_absent=0" target="_blank"
                   ><img class="w-100" src="./img/whatsapp.png" alt=""
                 /></a>
               </div>
               <div class="col-sm-6 col-md-12 mt-5">
                 <a
-                  href="https://www.linkedin.com/in/santiago-mosquera-m%C3%A1pura-170674275/"
+                  href="https://www.linkedin.com/in/santiago-mosquera-m%C3%A1pura-170674275/" target="_blank"
                   ><img class="w-100" src="./img/linklind.png" alt=""
                 /></a>
               </div>
@@ -166,7 +187,7 @@
           </div>
           <div class="col-md-2 text-center proy text-white">
             <h3 class="my-3">Proyectos</h3>
-            <a href="./projects.html"
+            <a href="./projects.html" target="_blank"
               ><img class="w-100" src="./img/sof.png" alt=""
             /></a>
             <p>Darle click a la imagen</p>
